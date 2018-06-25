@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var FindDuplicate = /** @class */ (function () {
     function FindDuplicate() {
     }
@@ -40,6 +42,7 @@ var FindDuplicate = /** @class */ (function () {
         }
         return results;
     };
+    //Find duplicates with O(n)
     FindDuplicate.prototype.findDuplicateWithMap = function (array) {
         var lookupArray = {};
         var results = [];
@@ -57,6 +60,7 @@ var FindDuplicate = /** @class */ (function () {
     };
     return FindDuplicate;
 }());
+exports.FindDuplicate = FindDuplicate;
 var findDuplicate = new FindDuplicate();
 var dupInput = [1, 2, 3, 1, 3, 6, 6];
 console.log('input:');
@@ -67,3 +71,4 @@ console.log('output findDuplicateWithSorting:');
 console.log(findDuplicate.findDuplicateWithSorting(dupInput.slice()));
 console.log('output findDuplicateWithMap:');
 console.log(findDuplicate.findDuplicateWithMap(dupInput.slice()));
+//# sourceMappingURL=findDuplicates.js.map

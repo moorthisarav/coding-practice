@@ -1,7 +1,6 @@
+"use strict";
 //Flattern the given multi dimentional array to single array 
-var input = [1, 1, [3, [4, 5], 6], 7, [8]];
-console.log('input:');
-console.log(input);
+Object.defineProperty(exports, "__esModule", { value: true });
 var FlatternArray = /** @class */ (function () {
     function FlatternArray() {
     }
@@ -36,10 +35,5 @@ var FlatternArray = /** @class */ (function () {
     };
     return FlatternArray;
 }());
-var flatternArray = new FlatternArray();
-console.log('output recursion:');
-console.log(flatternArray.flatternRecursion(input));
-console.log('output array reduce:');
-console.log(flatternArray.flatternUsingReduce(input));
-console.log('output array reduce with lamda:');
-console.log(flatternArray.flatternUsingReduceUsingLamda(input));
+exports.FlatternArray = FlatternArray;
+//# sourceMappingURL=flatternArray.js.map

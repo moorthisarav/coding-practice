@@ -1,0 +1,35 @@
+{
+  "name": "codingpractice",
+  "version": "1.0.0",
+  "description": "coding practice project",
+  "main": "index.js",
+  "dependencies": {
+    "tslint": "^5.10.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.4",
+    "@types/mocha": "^5.2.3",
+    "browser-sync": "^2.24.5",
+    "browserify": "^16.2.2",
+    "chai": "^4.1.2",
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^6.0.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-tslint": "^8.1.3",
+    "gulp-typescript": "^5.0.0-alpha.2",
+    "gulp-uglify": "^3.0.0",
+    "mocha": "^5.2.0",
+    "run-sequence": "^2.2.1",
+    "ts-node": "^7.0.0",
+    "tslint": "^5.10.0",
+    "typescript": "^2.9.2",
+    "typings": "^2.1.1",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "scripts": {
+    "test": "mocha -r ts-node/register src/**/*.ts"
+  },
+  "author": "Moorthi & team",
+  "license": "ISC"
+}

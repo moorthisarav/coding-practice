@@ -2,7 +2,7 @@
 //Flattern the given multi dimentional array to single array 
 
 
-class FlatternArray {
+export class FlatternArray {
 
     //flatern array using recursion
     flatternRecursion(array: any[]) {
@@ -41,16 +41,3 @@ class FlatternArray {
 
 }
 
-var flatternArray = new FlatternArray();
-
-let input = [1, 1, [3, [4, 5], 6], 7, [8]];
-console.log('input:');
-console.log(input);
-
-//Output
-console.log('output recursion:');
-console.log(flatternArray.flatternRecursion(input))
-console.log('output array reduce:');
-console.log(flatternArray.flatternUsingReduce(input))
-console.log('output array reduce with lamda:');
-console.log(flatternArray.flatternUsingReduceUsingLamda(input))
