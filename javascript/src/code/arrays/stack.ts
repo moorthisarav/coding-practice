@@ -47,7 +47,7 @@ export class Stack {
     }
 
     getAll() {
-        return this.stack;
+        return this.stack.reverse();
     }
 
     getLength() {
