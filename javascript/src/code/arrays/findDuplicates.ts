@@ -78,13 +78,13 @@ export class FindDuplicate {
 
 }
 
-var findDuplicate = new FindDuplicate();
-let dupInput  = [1, 2, 3, 1, 3, 6, 6];
-console.log('input:');
-console.log(dupInput);
-console.log('output findDuplicateWithRange:');
-console.log(findDuplicate.findDuplicateWithRange(dupInput.slice()));
-console.log('output findDuplicateWithSorting:');
-console.log(findDuplicate.findDuplicateWithSorting(dupInput.slice()));
-console.log('output findDuplicateWithMap:');
-console.log(findDuplicate.findDuplicateWithMap(dupInput.slice()));
+// var findDuplicate = new FindDuplicate();
+// let dupInput  = [1, 2, 3, 1, 3, 6, 6];
+// console.log('input:');
+// console.log(dupInput);
+// console.log('output findDuplicateWithRange:');
+// console.log(findDuplicate.findDuplicateWithRange(dupInput.slice()));
+// console.log('output findDuplicateWithSorting:');
+// console.log(findDuplicate.findDuplicateWithSorting(dupInput.slice()));
+// console.log('output findDuplicateWithMap:');
+// console.log(findDuplicate.findDuplicateWithMap(dupInput.slice()));
